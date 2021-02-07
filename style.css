@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: rgb(255, 217, 0);
+}
+#searchResult {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+#searchResult img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.divBlock {
+    background-color: aliceblue;
+    margin: 5%;
+    width: 300px;
+    border-radius: 10px;
+}
+.divBlock h3{
+    text-align: center;
+    padding: 10px 0px;
+}
