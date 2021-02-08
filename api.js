@@ -12,7 +12,7 @@ function parsingInfo(searchItem) {
         }
         else {
             // console.log(data.meals[0].strMeal);
-            console.log(data.meals);
+            // console.log(data.meals);
             creatingSearchResult(data.meals);
         }
     });
